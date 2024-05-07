@@ -2,12 +2,25 @@
 ```python
 math = upsonic.load_module("math")
 ```
-<br><b class="custom_code_highlight_green">Explanation:</b><br>The purpose of this 'math' library is to provide basic mathematical functions and operations for numerical calculations. The elements of this library include functions that perform addition, subtraction, multiplication, division, and other mathematical operations on numbers. By utilizing these functions, programmers can easily perform mathematical calculations and solve problems involving numbers.
+<br><b class="custom_code_highlight_green">Explanation:</b><br>The purpose of the 'math' library is to provide a comprehensive set of mathematical functions and operations. It includes functions for arithmetic calculations, mathematical functions, and data analysis. This library is widely used in various programming and data science projects for solving mathematical problems and analyzing data.
 
-<b class="custom_code_highlight_green">Use Case:</b><br>Sure, here's a summary of the code and its elements:
+The elements in the 'math' library represent individual mathematical functions and objects that can be used to perform mathematical operations. Each element has its specific purpose and functionality, making the library a valuable tool for performing mathematical calculations and data analysis tasks.
 
-The `math.basics.sum` module defines a function named `sum` that allows you to calculate the sum of two numbers. The function takes two arguments, `a` and `b`, and utilizes the built-in '+' operator to add these two numbers together. The module also includes an input variable, `a`, which represents the first number to be added, and another input variable, `b`, which represents the second number to be added. The code defines a single output variable, `sum`, which will store the result of the addition.
+<b class="custom_code_highlight_green">Use Case:</b><br>Sure, here's the explanation of the usage aim and elements of the 'math' library:
 
-This code provides a basic arithmetic function for addition, which can be used to solve simple mathematical problems.
+**Usage Aim:**
+
+The 'math' library provides functions and variables for performing mathematical operations and calculations. It offers a comprehensive set of functions for arithmetic, algebraic, and trigonometric calculations.
+
+**Elements:**
+
+* **`math.basics.sum`:** This function defines a mathematical function called `sum` that takes two arguments, `a` and `b`. It returns the sum of these two numbers.
+* **`math`**: This module serves as the core library for mathematical functions.
+* **`math.basics`**: This submodule contains functions for basic mathematical operations, such as addition, subtraction, multiplication, division, and square root.
+* **`math`**: This module provides core mathematical functions, including trigonometric functions (sin, cos, tan), exponential function (exp), and logarithm (log).
+
+**Overall:**
+
+The 'math' library provides a foundation for performing mathematical calculations in Python. It offers various functions and variables for addition, subtraction, multiplication, division, square root, trigonometric, and other mathematical operations. This library is commonly used in various applications and projects where mathematical computations are required.
 <br><b class="custom_code_highlight_green">Content:</b><br>
   - math.basics.sum
