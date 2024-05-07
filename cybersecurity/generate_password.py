@@ -11,8 +11,6 @@ def generate_password(length=10, include_punctuation=True, include_digits=True, 
         characters += string.ascii_uppercase
 
     first = ''.join((random.choice(characters) for i in range(length)))
-    first += str(random.randint(100, 1000))
 
-    first += str(random.randint(100, 1000))
 
     return 
