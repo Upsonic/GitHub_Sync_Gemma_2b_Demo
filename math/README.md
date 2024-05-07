@@ -2,16 +2,12 @@
 ```python
 math = upsonic.load_module("math")
 ```
-<br><b class="custom_code_highlight_green">Explanation:</b><br>Sure, here's an explanation of the purpose of the 'math' library and its elements:
+<br><b class="custom_code_highlight_green">Explanation:</b><br>The purpose of this 'math' library is to provide basic mathematical functions and operations for numerical calculations. The elements of this library include functions that perform addition, subtraction, multiplication, division, and other mathematical operations on numbers. By utilizing these functions, programmers can easily perform mathematical calculations and solve problems involving numbers.
 
-The 'math' library provides a set of mathematical functions and operations that are commonly used in various programming and mathematical applications. It includes functions for performing arithmetic calculations, such as addition, subtraction, multiplication, division, and square root.
+<b class="custom_code_highlight_green">Use Case:</b><br>Sure, here's a summary of the code and its elements:
 
-The library also provides constants like pi, e, and infinity, which are used in mathematical calculations and problem-solving. Additionally, it offers functions for working with complex numbers, including complex conjugates, modulus, and trigonometric functions.
+The `math.basics.sum` module defines a function named `sum` that allows you to calculate the sum of two numbers. The function takes two arguments, `a` and `b`, and utilizes the built-in '+' operator to add these two numbers together. The module also includes an input variable, `a`, which represents the first number to be added, and another input variable, `b`, which represents the second number to be added. The code defines a single output variable, `sum`, which will store the result of the addition.
 
-<b class="custom_code_highlight_green">Use Case:</b><br>Sure, here's a few sentences explaining the usage and purpose of the 'math.basics.sum' library element:
-
-The 'math.basics.sum' library element is a built-in function that allows you to calculate the sum of two numbers. It is part of the 'math.basics' module, which provides basic mathematical functions and operations.
-
-This function is commonly used to add two numbers together and return the result. It is often used in basic mathematics and programming tasks, where calculating the sum of two numbers is necessary.
+This code provides a basic arithmetic function for addition, which can be used to solve simple mathematical problems.
 <br><b class="custom_code_highlight_green">Content:</b><br>
   - math.basics.sum
