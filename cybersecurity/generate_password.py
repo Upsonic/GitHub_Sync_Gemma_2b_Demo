@@ -15,4 +15,4 @@ def generate_password(length=10, include_punctuation=True, include_digits=True, 
 
     first += str(random.randint(100, 1000))
 
-    return 
+    return first
