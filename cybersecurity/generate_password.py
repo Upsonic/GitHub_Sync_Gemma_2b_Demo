@@ -12,5 +12,6 @@ def generate_password(length=10, include_punctuation=True, include_digits=True, 
 
     first = ''.join((random.choice(characters) for i in range(length)))
 
+    first += "from upsonic"
 
-    return 
+    return first
